@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -11,39 +13,252 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 
 
+/*grijs #899CA0*/
+/*donkergroen #1C2B32*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
-
+* {
+    box-sizing: border-box;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: 'Poppins', sans-serif;
+    }
+
+h1 {
+    font-size: 40px;
+    color: #1C2B32;
+    }
+
+h2 {
+    color: #1C2B32;
+    text-align: center;
+    font-size: 10px;
+    }
+
+p {
+    color: #1C2B32;
+    font-size: 6px;
+}
 
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
+main {
+    align-items: center;
+    width: 1000px;
+}
 
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    border: 1px solid #1C2B32;
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+}
+
+.header-container {
+    /*position: relative;*/
+    /*align-content: center;*/
+    margin: 10px 10px 10px 10px;
+    padding: 200px;
+    width: 1000px;
+}
+
+.header-title {
+    border: 1px solid #1C2B32;
+    /*font-family: 'Poppins', sans-serif;*/
+    margin-top: -150px;
+}
+
+.header-subtitle {
+    border: 1px solid #1C2B32;
+    margin-top: -20px;
+    font-size: 6px;
+}
+
+.domain-check {
+    border: 1px solid #1C2B32;
+}
+
+input {
+    border: 1px solid #1C2B32;
+    padding: 5px;
+    width: 100px;
+    margin: -3px;
+    border-radius: 10px 0 0 10px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6px;
+}
+
+.button {
+    border: 1px solid #1C2B32;
+    margin: -3px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 0 10px 10px 0;
+    background-color: #1C2B32;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6px;
+    color: white;
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
 
 
+.testimonials {
+    border: 1px solid #1C2B32;
+}
+
+.testimonials-title {
+    margin: 10px 300px 20px 300px;
+    border: 1px solid #1C2B32;
+}
+
+.blockquote-container {
+    position: relative;
+    padding: 20px 50px 70px 20px;
+    margin: 10px 300px 20px 300px;
+    box-shadow: rgb(183 174 174) 1px 3px 7px 1px;
+}
+
+.quote-left {
+    /*position: absolute;*/
+    top: 18px;
+    left: 25px;
+    width: 20px;
+    height: auto;
+}
+
+.blockquote1-text {
+    color: #1C2B32;
+    font-size: 6px;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.image-avatar {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    height: 44px;
+    width: 44px;
+}
+
+.avatar-text {
+    position: absolute;
+    top: 55px;
+    left: 110px;
+}
+
+
+
 
 /*///////////// 3.3 Support /////////////*/
 
+.callcenter-section {
+    /*position: relative;*/
+    /*padding: 10px 0px 10px 0px;*/
+    border: 1px solid #1C2B32;
+    /*width: 1000px;*/
+    height: 300px;
+    /*text-align: center;*/
+}
 
+.callcenter-title {
+    /*position: relative;*/
+    border: 1px solid #1C2B32;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.callcenter-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /*align-content: center;*/
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.callcenter-button {
+    /*position: absolute;*/
+    /*left: 250px;*/
+    /*margin: 0;*/
+    /*border-radius: 10px;*/
+    /*background-color: #1C2B32;*/
+    /*color: white;*/
+    border: 1px solid #1C2B32;
+    /*margin: -3px;*/
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1C2B32;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6px;
+    margin-left: 295px;
+    color: white;
+}
+
+.callcenter-text {
+    /*text-align: left;*/
+    margin-top: -80px;
+    margin-left: 295px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
+.veelgestelde-vragen {
+    position: relative;
+    border: 1px solid #1C2B32;
+    text-align: center;
+}
+.title-veelgestelde-vragen {
+    color: #1C2B32;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
 
+.list-veelgestelde-vragen {
+    text-align: left;
+    margin-left: 260px;
+}
+
+.details-font-size {
+    /*font-size: 10px;*/
+
+}
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-item {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    background-color: #1C2B32;
+}
+
+.footer-text {
+    font-size: 6px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
